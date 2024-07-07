@@ -1,0 +1,26 @@
+{
+  "maxmin_attendance": {
+    "url": "http://semmaxmin.40387376.qpc.hal.davecutting.uk/",
+    "policy": "?item_1={item_1}&attendance_1={attendance_1}&item_2={item_2}&attendance_2={attendance_2}&item_3={item_3}&attendance_3={attendance_3}&item_4={item_4}&attendance_4={attendance_4}"
+  },
+  "sort_attendance": {
+    "url": "http://semsort.40387376.qpc.hal.davecutting.uk/",
+    "policy": "?item_1={item_1}&attendance_1={attendance_1}&item_2={item_2}&attendance_2={attendance_2}&item_3={item_3}&attendance_3={attendance_3}&item_4={item_4}&attendance_4={attendance_4}"
+  },
+  "total_attendance": {
+    "url": "http://semtotal.40387376.qpc.hal.davecutting.uk/",
+    "policy": "?attendance={lecture_attendance},{lab_attendance},{support_attendance},{canvas_activity}"
+  },
+  "engagement_score": {
+    "url": "http://semscore.40387376.qpc.hal.davecutting.uk/",
+    "policy": "?lecture_attendance={lecture_attendance}&lab_attendance={lab_attendance}&support_attendance={support_attendance}&canvas_activity={canvas_activity}"
+  },
+  "risk_assessment": {
+    "url": "http://semfailurerisk.40387376.qpc.hal.davecutting.uk/",
+    "policy": "?engagement_score={engagement_score}&cutOff_score={cutOff_score}"
+  },
+  "send_email": {
+    "url": "https://europe-west2-civil-celerity-392019.cloudfunctions.net/send_email_3",
+    "policy": "?emailto={email}"
+  }
+}
